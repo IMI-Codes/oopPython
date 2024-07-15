@@ -1,7 +1,4 @@
-from classes import *
 from inputs import *
+from cls import Human
 
-
-print("Hello")
 h1 = Human()
-h1.setGender(getGender())

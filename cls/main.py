@@ -2,11 +2,12 @@
 
 class Human :
   def __init__(self):
-    self.gender
-    self.age
-    self.firstName
-    self.lastName
-    self.otherName
+    self.gender = None
+    self.age = None
+    self.firstName = None
+    self.lastName  = None
+    self.otherName = None
+   
   def setGender(self,value):
     gender = value.lower()
     if gender == 'm' or 'male':
