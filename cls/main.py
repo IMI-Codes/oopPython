@@ -21,13 +21,13 @@ class Human :
     fullName = value
     if " " in fullName:
       names = fullName.split(' ')
-      if names.len == 3:
+      if len(names) == 3:
         self.firstName = names[0]
         self.lastName = names[1]
         self.otherName = names[2]
-      elif names.len == 2:
+      elif len(names) == 2:
         self.firstName = names[0]
-        self.otherName = names[1]
+        self.lastName = names[1]
     elif " " not in fullName:
       self.firstName = fullName
   def setAge(self,value):
@@ -36,3 +36,10 @@ class Human :
     except:
       print('Not a valid age enter a number between 1 - 200')
     self.age = age 
+  def showHuman(self):
+    return {"firstName":self.firstName,
+            "lastName":self.lastName,
+            "otherName":self.otherName, 
+            "Gender":self.gender,
+            "Age":self.age 
+            }
