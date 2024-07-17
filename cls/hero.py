@@ -39,4 +39,6 @@ class ActualHeroes(Hero):
 
 A1 = AnimeHero()
 A1.setName('Baki')
-A1.showValues()
+props = A1.showValues()
+print(props)
+#className.method(instance)
