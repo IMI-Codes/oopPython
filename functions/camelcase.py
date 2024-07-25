@@ -1,0 +1,2 @@
+def camelCase():
+  pass

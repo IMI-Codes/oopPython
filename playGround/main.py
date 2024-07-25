@@ -1,9 +1,13 @@
-from playGround.inputs import *
-from cls import Human
+fullName = "ishima manasseh ishima"
+myNames = fullName.split(' ')
 
-h1 = Human()
-h1.setName(getName())
-h1.setGender(getGender())
-h1.setAge(getAge())
-values= h1.showHuman()
+nameContainer = list()
 
+for name in myNames:
+  converted = name.capitalize()
+  nameContainer.append(converted)
+
+
+delimiter = " "
+finalName = delimiter.join(nameContainer)
+print(finalName)
