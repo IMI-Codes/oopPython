@@ -1,4 +1,4 @@
-fullName = "ishima manasseh ishima"
+""" fullName = "ishima manasseh ishima"
 myNames = fullName.split(' ')
 
 nameContainer = list()
@@ -10,4 +10,7 @@ for name in myNames:
 
 delimiter = " "
 finalName = delimiter.join(nameContainer)
-print(finalName)
+print(finalName) """
+
+name = input("Enter Name:\n")
+print(f"Hello {name}")
