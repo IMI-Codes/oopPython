@@ -12,5 +12,10 @@ delimiter = " "
 finalName = delimiter.join(nameContainer)
 print(finalName) """
 
-name = input("Enter Name:\n")
-print(f"Hello {name}")
+name = "Manasseh"
+age = "22"
+info = tuple()
+name,age = info
+delimter = ""
+final = delimter.join(info)
+print(final)
