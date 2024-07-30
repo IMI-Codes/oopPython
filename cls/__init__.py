@@ -1,1 +1,1 @@
-from .main import Human
+from .Human.main import Human
