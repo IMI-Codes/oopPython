@@ -1,0 +1,1 @@
+from string_check import checkTypeString as checkType

@@ -1,3 +1,4 @@
+
 class Hero:
   def __init__(self) :
     self.name = None
@@ -7,7 +8,8 @@ class Hero:
   
   #setters
   def setName(self,input):
-    self.name = input
+    self.name = checkType(input)
+    
   
   def setType(self,value):
     self.type = value
@@ -15,8 +17,8 @@ class Hero:
   def getName(self):
     return self.name
   
-  
-    
+johnWick = Hero()
+johnWick.setName(1)
 
     
 
