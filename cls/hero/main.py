@@ -8,7 +8,7 @@ class Hero:
   
   #setters
   def setName(self,input):
-    self.name = checkType(input)
+    pass
     
   
   def setType(self,value):
