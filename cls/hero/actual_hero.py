@@ -4,5 +4,3 @@ class ActualHeroes(Hero):
     super().__init__()
 
 
-Ali = ActualHeroes()
-print(Ali.genre)
