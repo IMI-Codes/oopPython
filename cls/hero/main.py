@@ -2,9 +2,11 @@
 class Hero:
   def __init__(self) :
     self.name = None
-    self.type = None #this is set by default 
+    self.type = None 
     self.verse = None
     self.genre = None
+    self.alter_ego = None
+    
 
   
   #setters

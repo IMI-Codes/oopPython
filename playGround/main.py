@@ -12,10 +12,12 @@ delimiter = " "
 finalName = delimiter.join(nameContainer)
 print(finalName) """
 
-name = "Manasseh"
+""" name = "Manasseh"
 age = "22"
 info = tuple()
 name,age = info
 delimter = ""
 final = delimter.join(info)
-print(final)
+print(final) """
+
+import json
